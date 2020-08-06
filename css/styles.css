@@ -1,0 +1,203 @@
+
+body {
+  font-family:'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto" ;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 10%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #009fdf;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Roboto" ;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.navbar-logo {
+  width: 4rem;
+  padding-right: 1rem;
+  padding-bottom: 1.2rem;
+  color: #fff;
+}
+
+.nav-item {
+  padding: 0 1.125rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 8%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 3.5%;
+}
+
+.icon {
+  color: #49a6cc;
+  margin-bottom: 2rem;
+}
+
+.icon:hover {
+  color: #82dbff;
+}
+
+/* Testimonial Section */
+
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 1.25rem;
+}
+
+.carousel-item{
+  padding-bottom: 3.125rem
+}
+
+/* Press Section */
+
+.press-logo {
+  width: 15%;
+  margin: 1.25rem 1.25rem 2.125rem;
+
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 5rem 4.25rem 4.25rem;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+#cta{
+  background-image: url(../img/cta.png);
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+
+}
+
+#cta,.container-fluid{
+  padding-top: 5%;
+  }
+
+/* Footer Section */
+
+.social-icon {
+  margin: 1.125rem 0.625rem;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+@media (max-width: 576px){
+  .press-logo{
+    text-align: center;
+    width: 35%;
+  }
+
+}
