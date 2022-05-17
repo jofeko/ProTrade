@@ -2,7 +2,7 @@
 
 Responsive landing page for a fictional online trading app.
 
-Demo link: [ProTade](https://johanneskng.github.io/ProTrade/)
+Demo link: [ProTade](https://kojoh.github.io/ProTrade/)
 
 ## Built with
 
